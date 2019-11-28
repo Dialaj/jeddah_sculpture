@@ -110,7 +110,7 @@ export default class App extends Component {
             <Route path='/joincommunity'/>
             <Route path='/Profile' component={userAccount} />
 
-            <Route path='/' component={home} />
+            <Route path='/' component={Home} />
           </Switch>
         </BrowserRouter>
       </div>
